@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Messaging.Abstractions", "src\Microsoft.Extensions.Messaging.Abstractions\Microsoft.Extensions.Messaging.Abstractions.csproj", "{648DFA15-996A-44F8-B8D8-6F93318B2FCF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD695955-090E-4BF6-8F28-E771857148C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.Messaging.AzureStorageQueue", "src\Microsoft.Extensions.Messaging.AzureStorageQueue\Microsoft.Extensions.Messaging.AzureStorageQueue.csproj", "{B0DB9CE8-FE88-4331-A12A-35F77F0109B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Messaging.AzureStorageQueue", "src\Microsoft.Extensions.Messaging.AzureStorageQueue\Microsoft.Extensions.Messaging.AzureStorageQueue.csproj", "{B0DB9CE8-FE88-4331-A12A-35F77F0109B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{59E4A78E-802A-4174-8749-855F06A52013}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueueTestSite", "tests\AzureStorageQueueTestSite\AzureStorageQueueTestSite.csproj", "{244B1CD9-DF23-40F6-94FE-6706607B37E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageQueueTestSite", "tests\AzureStorageQueueTestSite\AzureStorageQueueTestSite.csproj", "{244B1CD9-DF23-40F6-94FE-6706607B37E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageQueueTestFunction", "tests\AzureStorageQueueTestFunction\AzureStorageQueueTestFunction.csproj", "{28FBF5D2-26BD-48C6-9343-BAC56B857AED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{244B1CD9-DF23-40F6-94FE-6706607B37E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{244B1CD9-DF23-40F6-94FE-6706607B37E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{244B1CD9-DF23-40F6-94FE-6706607B37E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FBF5D2-26BD-48C6-9343-BAC56B857AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FBF5D2-26BD-48C6-9343-BAC56B857AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FBF5D2-26BD-48C6-9343-BAC56B857AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FBF5D2-26BD-48C6-9343-BAC56B857AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{648DFA15-996A-44F8-B8D8-6F93318B2FCF} = {BD695955-090E-4BF6-8F28-E771857148C4}
 		{B0DB9CE8-FE88-4331-A12A-35F77F0109B4} = {BD695955-090E-4BF6-8F28-E771857148C4}
 		{244B1CD9-DF23-40F6-94FE-6706607B37E7} = {59E4A78E-802A-4174-8749-855F06A52013}
+		{28FBF5D2-26BD-48C6-9343-BAC56B857AED} = {59E4A78E-802A-4174-8749-855F06A52013}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACD18BA3-CB88-4C82-8999-39597E96A008}
